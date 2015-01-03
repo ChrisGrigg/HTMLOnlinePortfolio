@@ -1,71 +1,224 @@
 <!doctype html>
 <html lang="">
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Web Starter Kit</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" charset=utf-8>
+    <meta name="description " content="Chris Grigg's online portfolio">
+    <meta name="keywords " content=" " />
+	<meta name="viewport " content="width=device-width, initial-scale=1 ">
 
-    <!-- Add to homescreen -->
-    <link rel="manifest" href="manifest.json">
+    <title>Chris Grigg's online portfolio</title>
 
-    <!-- Fallback to homescreen for Chrome <39 on Android -->
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="application-name" content="Web Starter Kit">
-    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable " content="yes ">
+    <link rel="icon " sizes="192x192 " href="images/touch/chrome-touch-icon-192x192.png ">
 
     <!-- Add to homescreen for Safari on iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
-    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-capable " content="yes ">
+    <meta name="apple-mobile-web-app-status-bar-style " content="black ">
+    <meta name="apple-mobile-web-app-title " content="Chris Grigg's online portfolio">
+    <link rel="apple-touch-icon-precomposed " href="apple-touch-icon-precomposed.png ">
 
     <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
-    <meta name="msapplication-TileColor" content="#3372DF">
-
-    <meta name="theme-color" content="#3372DF">
+    <meta name="msapplication-TileImage " content="images/touch/ms-touch-icon-144x144-precomposed.png ">
+    <meta name="msapplication-TileColor " content="#3372DF ">
 
     <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
     <!--
-    <link rel="canonical" href="http://www.example.com/">
+    <link rel="canonical " href="http://www.example.com/ ">
     -->
 
-    <!-- Page styles -->
-    <link rel="stylesheet" href="styles/main.css">
+  <!-- Page styles -->
+  <link rel="stylesheet " href="styles/main.css ">
   </head>
   <body>
-    <header class="app-bar promote-layer">
-      <div class="app-bar-container">
-        <button class="menu"><img src="images/hamburger.svg" alt="Menu"></button>
-        <h1 class="logo">Web <strong>Starter Kit</strong></h1>
-        <section class="app-bar-actions">
-        <!-- Put App Bar Buttons Here -->
-        <!-- e.g <button><i class="icon icon-star"></i></button> -->
-        </section>
-      </div>
-    </header>
+        <header class="app-bar promote-layer">
+          <div class="app-bar-container">
+            <button class="menu"><img src="images/hamburger.svg" alt="Menu"></button>
+            <h1 class="logo">Christopher Grigg MSc</h1>
+            <section class="app-bar-actions">
+            <!-- Put App Bar Buttons Here -->
+            <!-- e.g <button><i class="icon icon-star"></i></button> -->
+            </section>
+          </div>
+        </header>
+      
+	    <nav class="navdrawer-container promote-layer">
+	      <ul>
+	        <li><a href="#top">Top</a></li>
+	        <li><a href="#experience">Experience</a></li>
+	        <li><a href="#portfolio">Portfolio</a></li>
+	        <li><a href="#contact">Contact</a></li>
+	        <li><a href="styleguide.html">Style Guide</a></li>
+	      </ul>
+	    </nav>
 
-    <nav class="navdrawer-container promote-layer">
-      <h4>Navigation</h4>
-      <ul>
-        <li><a href="#hello">Hello</a></li>
-        <li><a href="#get-started">Get Started</a></li>
-        <li><a href="styleguide.html">Style Guide</a></li>
-      </ul>
-    </nav>
+        <main>
+            <!-- Home -->
+            <article id="top">
+                <ul class="featured-list">
+                  <li class="featured-list__item clear">
+                    <div class="container-small">
+                      <div class="featured-list__img-wrapper g--half">
+                        <img class="roundImage" src="images/content/pic00CG.png" alt="Picture of Chris Grigg" />
+                      </div>
+                      <div class="featured-list__content g--half g--last">
+                        <h1>Hi, I'm <strong>Chris Grigg</strong></h1>
+                        <p class="large">This is my online portfolio.</p>
+                        <a href="#experience" class="button--primary scrolly">Learn about what I do</a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+            </article>
 
-    <main>
-      <h1 id="hello">Hello!</h1>
-      <p>Welcome to Web Starter Kit.</p>
+            <!-- experience -->  
+            <article id="experience">
+                <div class="guides-section">
+                      <header class="container">
+                        <h2 class="xxlarge">Here's my skills and experience.</h2>
+                      </header>
 
-      <h2 id="get-started">Get Started.</h2>
-      <p>Read how to <a href="https://developers.google.com/web/starter-kit">Get Started</a> or check out the <a href="styleguide.html">Style Guide</a>.</p>
-    </main>
+                      <ul class="guides-list container-medium">
+                        <li class="guides-list__item g--third">
+                            <div class="primary-content">
+                                <div class="highlight-module--learning highlight-module--inline">
+                                    <h3 class="highlight-module__title">Management</h3>
+                                </div>
+                              <p>I have 2 years experience as a certified Scrum Master (CSM) and Technical Team Leader.</p>
+                            </div>
+                        </li>
+                        <li class="guides-list__item g--third">
+                            <div class="primary-content">
+                                <div class="highlight-module--remember highlight-module--inline">
+                                    <h3 class="highlight-module__title">Experience</h3>
+                                </div>
+                              <p>I have 8 years experience in front-end development of desktop and web applications.   I utilised: object oriented programming, design patterns, scripting and more.</p>
+                            </div>
+                        </li>
+                        <li class="guides-list__item g--third g--last">
+                            <div class="primary-content">
+                                <div class="highlight-module--skills highlight-module--inline">
+                                    <h3 class="highlight-module__title">Skills</h3>
+                                </div>
+                              <p>Skills include, but are not limited to (in order of competency): AS3/Flash, HTML, Javascript, Sass, CSS, SEO, Java Android.</p>
+                            </div>
+                        </li>
+                      </ul>
+                    <footer>
+                    <a href="data/GriggResume.pdf" class="themed">
+<!--                      <span class="icon-circle--large themed--background"><i class="icon icon-introduction-to-media"></i></span>-->
+                      <h3 class="large text-divider">View my CV</h3>
+                    </a>
+<!--                        <p><a href="data/GriggResume.pdf" target="_blank">View my CV.</a></p>-->
+                        <a href="#portfolio" class="button--primary">See some of my recent work</a>
+                    </footer>
+                </div>
+            </article>
 
+            <!-- Portfolio -->  
+            <article id="portfolio">
+                <div class="guides-section2">
+                    <header class="container">
+                        <h2 class="xxlarge">Here’s my portfolio.</h2>
+                    </header>
+                    <ul class="guides-list container-medium">
+                        <li class="guides-list__item g--third">
+                            <div class="primary-content">
+                              <img src="images/content/thumbSonos.jpg" alt="Sonos">
+                                <h3><strong>Sonos e-learning</strong></h3>
+                                <p>July 2014 to present - a web app targeted for iOS to teach the user how Sonos products work.  A feature of this is the ability to run the app offline.
+                              <br /><br />
+                              <i>HTML, Javascript, JQuery, Sass, XML, Gulp, NodeJS</i></p>
+                            </div>
+                        </li>
+                        <li class="guides-list__item g--third">
+                            <div class="primary-content">
+                                <img src="images/content/thumbPera.jpg" alt="Pera">
+                              <h3><strong>Pera</strong></h3>
+    <p>July 2014 to present - an HTML app targeted for Chrome but functional in multiple browsers. This app is for training of Saudi Arabian Government employees. 
+    <br /><br />
+    <i>HTML, Javascript, JQuery, Sass, XML, Gulp, NodeJS</i></p>
+                            </div>
+                        </li>
+                        <li class="guides-list__item g--third g--last">
+                            <div class="primary-content">
+                                <img src="images/content/thumbIPOS.png" alt="iPOS">
+                                <h3><strong>Intel iPOS</strong></h3>
+                                <p>Nov 2010 to present - iPOS (Intelligent Point of Sale) is a desktop application installed on computers for sale in electronics retailers worldwide.
+                                <br /><br /><i>AS3, XML, Robot Legs, NodeJS</i></p>
+                            </div>
+                        </li>
+                        <li class="guides-list__item g--third">
+                            <div class="primary-content">
+                              <img src="images/content/thumbJLP.png" alt="JLP">
+                                <h3><strong>JLP</strong></h3>
+                                <p>Jan 2012 to present - an Intelligent Point of Sale application installed on devices for sale in JLP stores.
+                              <br /><br />
+                              <i>AS3, XML</i></p>
+                            </div>
+                        </li>
+                        <li class="guides-list__item g--third">
+                            <div class="primary-content">
+                                <a href="http://www.socialsafe.net/" target="_blank"><img src="images/content/thumbSS.png" alt="Social Safe"></a>
+                                <h3><strong><a href="http://www.socialsafe.net/" target="_blank">Social Safe</a></strong></h3>
+                                <p>June to Nov 2010 - SocialSafe is a desktop application that allows users to download and backup data from multiple social networks.
+                              <br /><br />
+                              <i>Flex, AS3, Adobe Air, SQLite, Facebook's 'Old REST API'</i></p>
+                            </div>
+                        </li>
+                        <li class="guides-list__item g--third g--last">
+                            <div class="primary-content">
+                              <img src="images/content/thumbNokia.jpg" alt="Nokia">
+                                <h3><strong>Nokia widget</strong></h3>
+                                <p>June 2010 - a widget, allowing users to navigate to a U.S. retailer to buy a phone for $1 at specific dates and times.
+                                <br /><br />
+                                <i>AS2, PHP, My SQL</i></p>
+                            </div>
+                        </li>
+                        <li class="guides-list__item g--third">
+                            <div class="primary-content">
+                                <a href="http://www.tasteofthevine.co.uk" target="_blank"><img src="images/content/thumbTOTV.jpg" alt="Taste of the Vine"></a>
+                                <h3><strong><a href="http://www.tasteofthevine.co.uk" target="_blank">Taste of the Vine</a></strong></h3>
+                                <p>Apr 2006 to June 2009 - the main website for Taste of the Vine, a corporate entertainment company.
+                                <br /><br />
+                                <i>XHTML, CSS, Javascript, AJAX, ASP, PHP, AS2, SEO</i></p>
+                            </div>
+                        </li>
+                        <li class="guides-list__item g--third">
+                            <div class="primary-content">
+                                <a href="http://www.freewinecourse.com" target="_blank"><img src="images/content/thumbFWC.jpg" alt="Free Wine Course"></a>
+                                <h3><strong><a href="http://www.freewinecourse.com" target="_blank">Free Wine Course</a></strong></h3>
+                                <p>Apr 2006 - June 2009 - an online Flash application to teach the user about wine.<br /><br /><strong>user: </strong>test@test.co.uk<br /><strong>password: </strong>test
+                                <br /><br />
+                                <i>AS2, XML, ASP, MS Access, SEO</i></p>
+                            </div>
+                        </li>
+                  </ul>
+                  <a href="https://github.com/ChrisGrigg" class="themed">
+<!--                      <span class="icon-circle--large themed--background"><i class="icon icon-introduction-to-media"></i></span>-->
+                        <h3 class="large text-divider">View my Github account.</h3>
+                  </a>
+<!--                  <p><a href="https://github.com/ChrisGrigg" target="_blank">View my Github account.</a></p>-->
+                  <a href="#contact" class="button--primary">Get in touch with me</a>
+                </div>
+            </article>
+
+           <!-- Contact -->  
+          <article id="contact">
+              <div class="guides-section3">
+                  <p><a href="mailto:christophergrigg@hotmail.com">christophergrigg@hotmail.com</a><br /><br />
+                    &copy; All rights reserved.</p>
+              </div>
+          </article>
+          </div>
+      </main>
+    
     <!-- build:js scripts/main.min.js -->
-    <script src="scripts/main.js"></script>
+    <script src="scripts/main.js "></script>
+	<script src="scripts/external/jquery.min.js "></script>
+	<script src="scripts/external/jquery.scrolly.min.js "></script>
     <!-- endbuild -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
@@ -77,6 +230,5 @@
       ga('create', 'UA-XXXXX-X', 'auto');
       ga('send', 'pageview');
     </script>
-    <!-- Built with love using Web Starter Kit -->
   </body>
 </html>

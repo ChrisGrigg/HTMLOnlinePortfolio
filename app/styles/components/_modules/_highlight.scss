@@ -87,6 +87,19 @@
   }
 }
 
+.highlight-module--skills {
+  color: #ffffff;
+
+  &::after {
+    background-color: $colorSkills;
+  }
+
+  a {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+}
+
 
 /*==========  CODE  ==========*/
 .highlight-module--code {
@@ -183,7 +196,7 @@
   }
 
   & .highlight-module__title {
-    @include type--large;
+    @include type--xlarge;
   }
 
   &.highlight-module--remember {
@@ -197,6 +210,13 @@
     & .highlight-module__title,
     & li::before {
       color: $colorLearning;
+    }
+  }
+    
+  &.highlight-module--skills {
+    & .highlight-module__title,
+    & li::before {
+      color: $colorSkills;
     }
   }
 

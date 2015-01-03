@@ -3,14 +3,12 @@
 * Guides List
 *
 **/
-
-
 .guides-list {
   overflow: hidden;
 
   @include medium {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
 
     padding-top: $lineHeight*2;
@@ -30,11 +28,11 @@
   }
 
   h3 {
-    margin: 0 32px;
+    margin: 0 20px;
   }
 
   p {
-    margin: $lineHeight 32px 0;
+    margin: 20px 32px 20px;
   }
 
   .primary-content {

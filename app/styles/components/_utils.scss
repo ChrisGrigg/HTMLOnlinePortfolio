@@ -11,7 +11,7 @@
   $wide: 800px !default;
   $huge: 1600px !default;
   $mediumContainer: 688px !default;
-  $wideContainer: 864px !default;
+  $wideContainer: 1200px !default;
 
   // Defining grid sizes
   $mediumColCount: 3 !default;
@@ -32,13 +32,16 @@
   $colorYellowSecondary: lighten($colorYellow, 20%) !default;
 
   $colorRemember: #09829a !default;
+  $colorSkills: #0f9d58 !default;
   $colorLearning: #da2e75 !default;
 
-  $colorGrayBackground: #f0f0f0 !default;
   $colorGrayKeyline: #e0e0e0 !default;
   $colorGray: #737373 !default;
   $colorGrayLight: #eeeeee !default;
   $colorGrayDark: #404040 !default;
+  $colorGrayBackground: #f0f0f0 !default;
+  $colorGrayBackground2: #E2E1E1 !default;
+  $colorGrayBackground3: $colorGrayDark !default;
 
   $colorText: $colorGrayDark !default;
   $colorHighlight: $colorBlue !default;

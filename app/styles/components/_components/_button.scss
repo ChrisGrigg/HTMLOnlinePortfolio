@@ -21,6 +21,10 @@
 
   transition: none;
 
+  &:visited {
+    color: #ffffff;
+  }
+    
   &:hover {
     background: #4d4d4d;
     color: #ffffff;
