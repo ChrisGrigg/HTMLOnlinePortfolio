@@ -1,0 +1,17 @@
+@mixin image-text-standard($bgColour) {
+    overflow: hidden;
+    
+      @if $bgColour {
+        background: $bgColour;
+      }
+      text-align: center;
+      padding: $lineHeight 0 $lineHeight * 4;
+    
+    .g--last {
+        text-align: left;
+    }
+}
+
+.image-text-section {
+    @include image-text-standard($colorWhite);
+}
