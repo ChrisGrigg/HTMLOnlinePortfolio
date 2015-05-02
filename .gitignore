@@ -2,3 +2,6 @@ node_modules
 dist
 .tmp
 .sass-cache
+README 2.md
+
+app/styles/external/font-awesome.css
