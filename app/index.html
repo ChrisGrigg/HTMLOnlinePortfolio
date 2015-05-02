@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="">
+<html lang="" ng-app="site">
 
 <head>
     <meta charset="utf-8">
@@ -62,10 +62,10 @@
                       <div class="g--half">
                         <img class="roundImage" src="images/content/pic00CG.png" alt="Picture of Chris Grigg" />
                       </div>
-                      <div class="g--half g--last">
-                        <h1>Hi, I'm <strong>Chris Grigg</strong></h1>
-                        <p class="large">This is my online portfolio.</p>
-                        <a href="#experience" class="button--primary scrolly">Learn about what I do</a>
+                      <div class="g--half g--last" ng-controller="IntroCtrl as introCtrl">
+                        <h1>{{introCtrl.intro}} <strong>{{introCtrl.name}}</strong></h1>
+                        <p class="large">{{introCtrl.explain}}</p>
+                        <a href="#experience" class="button--primary scrolly">{{introCtrl.buttonNav}}</a>
                       </div>
                     </div>
                 </div>
@@ -95,7 +95,7 @@
                       <header class="container">
                         <h2 class="xxlarge">Here's my skills and experience.</h2>
                       </header>
-
+                      <!-- Angular Start -->
                       <ul class="guides-list container-medium">
                         <li class="guides-list__item g--third">
                             <div class="primary-content">
@@ -123,6 +123,7 @@
                             </div>
                         </li>
                       </ul>
+                      <!-- Angular End -->
                     <footer>
                     <a href="data/GriggResume.pdf" class="themed">
 <!--                      <span class="icon-circle--large themed--background"><i class="icon icon-introduction-to-media"></i></span>-->
@@ -233,8 +234,10 @@
       </main>
     
     <!-- build:js scripts/main.min.js -->
-    <script src="scripts/main.js "></script>
-	<script src="scripts/external/jquery.min.js "></script>
+    <script src="scripts/main.js"></script>
+	  <script src="scripts/external/jquery.min.js"></script>
+	  <script src="scripts/external/angular.min.js"></script>
+	  <script src="scripts/app.js"></script>
     <!-- endbuild -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
