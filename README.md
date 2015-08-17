@@ -19,4 +19,4 @@ At present, this application is aimed to support the following browsers:
 * Android / Chrome 4.4, 4.4.3
 * BlackBerry 10
 
-This is not to say it cannot be used in browsers older than those reflected, but merely that our focus will be on ensuring our layouts work great in the above.
+This is not to say it cannot be used in browsers older than those reflected, but merely that the focusis on ensuring the layouts work great in the above.
