@@ -3,5 +3,6 @@ dist
 .tmp
 .sass-cache
 README 2.md
+.idea
 
 app/styles/external/font-awesome.css
